@@ -7,16 +7,21 @@ complex roots
 # Complex roots will cause this program to be stuck.
 
 
-
-To initialize ,you do\n
- \t\t equation\<double\> eq;
+<p>
+To initialize ,you do<br \>
+</p>
+<div>   equation\<double\> eq;</div>
+<p>
 Then you call the the get_equation function
-  \t\t get_equation(eq);
+</p>
+<div>  get_equation(eq); </div>
+<p>
 This prompts the user for necessary inputs
   
 To get the solution you use  the find_roots function
 which returns a vector of the roots of the equation
-
- \t\t vector\<double\> roots=find_roots(eq);
-  
+</p>
+ <div> vector\<double\> roots=find_roots(eq); </div>
+<p>  
 Then you can print the roots with a loop if you want
+</p>
