@@ -8,20 +8,22 @@ complex roots
 
 
 <p>
-To initialize ,you do<br \>
-</p>
+To initialize ,you do<br \></p>
    equation &lt double &gt eq;
 <p>
-Then you call the the get_equation function
-</p>
+
+Then you call the the get_equation function</p>
   get_equation(eq); 
 <p>
-This prompts the user for necessary inputs
-  
+This prompts the user for necessary inputs<br \></p>
+
+
+<p>  
 To get the solution you use  the find_roots function
-which returns a vector of the roots of the equation
-</p>
+which returns a vector of the roots of the equation</p>
   vector &lt double &gt roots=find_roots(eq);
 <p>  
+
+
 Then you can print the roots with a loop if you want
 </p>
