@@ -10,7 +10,7 @@ complex roots
 <p>
 To initialize ,you do<br \>
 </p>
-   equation\<double\> eq;
+   equation &lt double &gt eq;
 <p>
 Then you call the the get_equation function
 </p>
@@ -21,7 +21,7 @@ This prompts the user for necessary inputs
 To get the solution you use  the find_roots function
 which returns a vector of the roots of the equation
 </p>
-  vector\<double\> roots=find_roots(eq);
+  vector &lt double &gt roots=find_roots(eq);
 <p>  
 Then you can print the roots with a loop if you want
 </p>
