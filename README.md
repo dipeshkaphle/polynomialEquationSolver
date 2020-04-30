@@ -10,18 +10,18 @@ complex roots
 <p>
 To initialize ,you do<br \>
 </p>
-<div>   equation\<double\> eq;</div>
+   equation\<double\> eq;
 <p>
 Then you call the the get_equation function
 </p>
-<div>  get_equation(eq); </div>
+  get_equation(eq); 
 <p>
 This prompts the user for necessary inputs
   
 To get the solution you use  the find_roots function
 which returns a vector of the roots of the equation
 </p>
- <div> vector\<double\> roots=find_roots(eq); </div>
+  vector\<double\> roots=find_roots(eq);
 <p>  
 Then you can print the roots with a loop if you want
 </p>
